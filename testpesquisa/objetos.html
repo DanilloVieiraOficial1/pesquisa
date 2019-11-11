@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemple Orientação à objetos JavaScript</title>
+</head>
+
+<body>
+    <p>Exemplos :</p>
+    <script>
+        var pessoa = {
+            nome: {
+                primeiro: 'Bob',
+                segundo: 'Smith'
+            },
+            idade: 32,
+            sexo: 'Masculino',
+            Interesses: ['música', 'esquiar'],
+            bio: function () {
+                alert(this.nome[0] + '' + this.nome[1] + 'tem' + this.idade + 'anos de idade. Ele gosta de ' + this.interesses[0] + 'e' + this.interesses[1] + '.');
+            },
+            saudacao: function () {
+                alert('Oi! eu sou ' + this.nome[0] + '.');
+            }
+        };
+        var pessoa1 = {
+            nome: 'Chris',
+            saudacao: function () {
+                alert('Oi! Meu nome é ' + this.nome + '.');
+            }
+        };
+        var pessoa2 = {
+            nome: 'Brian',
+            saudacao: function () {
+                alert('Oi! Meu nome é ' + this.nome + '.');
+            }
+        }
+        var minhaDiv = document.createElement('div');
+        var meuVideo = document.querySelector('video');
+        var minhaNotificacao = new Notification('Hello!');
+
+    </script>
+</body>
+
+</html>

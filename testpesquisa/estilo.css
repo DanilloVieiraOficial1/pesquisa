@@ -1,0 +1,28 @@
+.container{
+    width: 60%;
+    margin: 100px auto;
+    background: #333;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.container > input{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.sugestao{
+    border-top: 2px solid #999;
+}
+.sugestao > div{
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    border-top: 1px solid #666;
+    cursor: pointer;
+}
+.sugestao > div:hover{
+    background-color: #1e4dd4;
+    
+}
